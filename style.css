@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f9f4;
+}
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  color: #555555;
+  line-height: 1.6;
+  background: linear-gradient(
+    90deg,
+    rgba(33, 150, 243, 1) 0%,
+    rgba(63, 81, 181, 1) 100%
+  );
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
